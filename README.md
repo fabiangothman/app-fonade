@@ -16,7 +16,7 @@ There are some files into the root project which contains the database model.
 
 ## Stack
 This project was created and designed and created using PHP Custom Framework and PHP Native code. The database addmitts only engine MariaBD & MySQL.
-For FrondEnd the stack was pure Javascript, JQuery and CSS.
+For FrondEnd the stack was pure Javascript, JQuery and Bootstrap for CSS.
 
 ## Available
 This project was stored and deployed on a client's private network. So there is no live view.
