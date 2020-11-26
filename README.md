@@ -3,7 +3,8 @@
 [![Build Status](https://travis-ci.com/async-rs/async-std.svg?branch=master)](https://travis-ci.com/async-rs/async-std)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg)](https://github.com/async-rs/async-std)
 
-App for Interventory system - Built on a custom PHP Framework
+App for Interventory system - Built on a custom PHP Framework.
+
 This is the app created by `Fabian Murillo` based on a custom PHP MVC Framework for solve an [`FECODE`] company documents order problem.
 
 [`FECODE`]: http://www.fecode.edu.co/
