@@ -1,0 +1,102 @@
+﻿/********************************************************************
+*   Desarrollado por: Fabián Murillo, fabianmurillo.01@gmail.com    *
+*                     © 2019                                        *
+*********************************************************************/
+#reportes_container{
+    /**/
+}
+#reportes_container .page_content{
+    max-width:1100px;
+    /*min-width:700px;*/
+    margin:0px auto;
+}
+#reportes_container .modulo_page{
+    /**/
+}
+
+#reportes_container .cont-wrapper{
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;  
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+    #reportes_container .cont-wrapper .titulo_mod h2 {
+        margin: 6px 0 0;
+        font-size: 22px;
+    }
+
+#reportes_container .selectores{
+    text-align:center;
+    margin:10px 0px;
+}
+    #reportes_container .selectores .cont_select{
+        display:inline-block;
+        width:100px;
+        margin:10px 4px;
+    }
+    #reportes_container .selectores .labelselector{
+        height:35px;
+        line-height:15px;
+        text-align:center;
+        width:100%;
+        display:table;
+        overflow:hidden;
+        margin-bottom:5px;
+        font-weight:bold;
+    }
+        #reportes_container .selectores .labelselector .texlabel{
+            display: table-cell;
+            vertical-align: bottom;
+        }
+    #reportes_container .selectores select, #reportes_container .selectores input[type="text"]{
+        width:100%;
+        height:35px;
+        overflow:hidden;
+        border-radius:5px;
+        border:1px solid grey;
+        background-color:white;
+        cursor:pointer;
+    }
+
+#reportes_container .cont_btn_generar{
+    /**/
+}
+    #reportes_container .cont_btn_generar #btn_generar{
+        border:1px solid grey;
+        width:100%;
+        max-width:300px;
+        height:40px;
+        margin:5px auto;
+        text-align:center;
+        line-height:38px;
+        cursor:pointer;
+        border-radius:5px;
+    }
+
+    #reportes_container .cont_btn_generar #btn_generar:hover{
+        background-color:grey;
+        color:white;
+    }
+
+#reportes_container #cont_descarga{
+    text-align:center;
+    display:none;
+    max-width:300px;
+    width:100%;
+    margin:0px auto;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+    #reportes_container .cont_descarga .texto_descarga{
+        /*margin:0px auto;*/
+    }
+
+
+/*Clase que se adiciona al boton cuando se esta procesando un reporte*/
+.procesando{
+    background-color:white !important;
+    color:grey !important;
+    cursor:wait !important;
+}

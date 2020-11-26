@@ -1,0 +1,27 @@
+Options +FollowSymLinks
+
+# Prevent Directoy listing 
+Options -Indexes
+
+#Add Charset
+IndexOptions +Charset=UTF-8
+AddDefaultCharset UTF-8
+
+# Prevent Direct Access to files
+<FilesMatch "\.tpl">
+Order deny,allow
+Deny from all
+</FilesMatch>
+
+# SEO URL Settings
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !.*\.(ico|gif|jpg|jpeg|png|js|css)
+
+RewriteRule ^(.*)\?*$ index.php?_route_=$1 [L,QSA]
+
+AddType video/ogg  .ogv
+AddType video/mp4  .mp4
+AddType video/webm .webm

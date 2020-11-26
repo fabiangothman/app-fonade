@@ -1,0 +1,102 @@
+﻿/********************************************************************
+*   Desarrollado por: Fabián Murillo, fabianmurillo.01@gmail.com    *
+*                     © 2019                                        *
+*********************************************************************/
+#cargacsv_container{
+    /**/
+}
+#cargacsv_container .page_content{
+    max-width:1100px;
+    /*min-width:700px;*/
+    margin:0px auto;
+}
+#cargacsv_container .modulo_page{
+    /**/
+}
+
+#cargacsv_container .cont-wrapper{
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;  
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+    #cargacsv_container .cont-wrapper .titulo_mod h2 {
+        margin: 6px 0 0;
+        font-size: 22px;
+    }
+
+#cargacsv_container .selectores{
+    text-align:center;
+    margin:10px 0px;
+}
+    #cargacsv_container .selectores .cont_select{
+        display:inline-block;
+        width:100px;
+        margin:10px 4px;
+    }
+    #cargacsv_container .selectores .labelselector{
+        height:35px;
+        line-height:15px;
+        text-align:center;
+        width:100%;
+        display:table;
+        overflow:hidden;
+        margin-bottom:5px;
+        font-weight:bold;
+    }
+        #cargacsv_container .selectores .labelselector .texlabel{
+            display: table-cell;
+            vertical-align: bottom;
+        }
+    #cargacsv_container .selectores select, #cargacsv_container .selectores input[type="text"]{
+        width:100%;
+        height:35px;
+        overflow:hidden;
+        border-radius:5px;
+        border:1px solid grey;
+        background-color:white;
+        cursor:pointer;
+    }
+
+#cargacsv_container .cont_btn_cargar{
+    text-align:center;
+}
+    #cargacsv_container .cont_btn_cargar #btn_cargar{
+        border:1px solid grey;
+        width:100%;
+        max-width:300px;
+        height:40px;
+        margin:5px auto;
+        text-align:center;
+        line-height:38px;
+        cursor:pointer;
+        border-radius:5px;
+    }
+
+    #cargacsv_container .cont_btn_cargar #btn_cargar:hover{
+        background-color:grey;
+        color:white;
+    }
+
+#cargacsv_container #result_carga{
+    text-align:center;
+    display:none;
+    max-width:300px;
+    width:100%;
+    margin:0px auto;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+    #cargacsv_container .result_carga .xxx{
+        /*margin:0px auto;*/
+    }
+
+
+/*Clase que se adiciona al boton cuando se esta procesando un reporte*/
+.procesando{
+    background-color:white !important;
+    color:grey !important;
+    cursor:wait !important;
+}

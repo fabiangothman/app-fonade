@@ -1,0 +1,38 @@
+/********************************************************************
+*   Desarrollado por: Fabián Murillo, fabianmurillo.01@gmail.com    *
+*                     © 2018                                        *
+*********************************************************************/
+#perfil_container{
+    /**/
+}
+#perfil_container .page_content{
+    /**/
+}
+#perfil_container .modulo_page{
+    /**/
+}
+
+#perfil_container .titulo h2{
+    margin: 6px 0 0;
+    font-size: 22px;
+}
+
+
+#perfil_container .profilepic img{
+    max-width:100px;
+    max-height:100px;
+}
+
+hr.espaciador{
+	margin-top:30px;
+    margin-bottom:30px;
+    border:0;
+    border-top:1px solid #eee;
+}
+
+.control-label-left{
+	padding-top:7px;
+    margin-bottom:0;
+	float:left;
+	font-weight:100;
+}

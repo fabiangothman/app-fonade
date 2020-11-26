@@ -1,0 +1,201 @@
+<?php
+	/****************************************************************************
+	*	Desarrollado por: Fabián Murillo, fabianmurillo.01@gmail.com			*
+	*					  Juan Suárez, juancsuarezg@correo.udistrital.edu.co	*
+	*					  © 2017												*
+	****************************************************************************/
+body{
+	margin:0px;
+	padding:0px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:16px;
+}
+@-ms-viewport{
+	zoom:1.0;
+    width:device-width;
+    width:extend-to-zoom;
+}
+@viewport{
+    zoom:1.0;
+    width:device-width;
+    width:extend-to-zoom;
+}
+
+
+/************************************/
+/*	Tamaño para versión en móviles	*/
+@media screen and (min-width:0px) and (max-width:599px) {
+    #header_container{
+    	/**/
+    }
+
+    #header_container .page_content{
+    	margin:0px auto;
+    	max-width:599px;
+    }
+
+
+    /************************/
+    /*	Inicia la edición	*/
+    #header_container .page_content .contenedor_cabecera{
+    	margin:0px auto;
+    	min-width:200px;
+    	width:100%;
+    }
+
+    	#header_container .page_content .contenedor_cabecera .areaNavegacionEscritorio{
+	    	display:none;
+    	}
+
+    	#header_container .page_content .contenedor_cabecera .areaNavegacionResponsive{
+	    	background-color:#e5e5e5;
+	    	display:block;
+	    	height:auto;
+    	}
+
+	    #header_container .page_content .contenedor_cabecera .areaNavegacionResponsive .cont_botonera{
+	    	display:table;
+	    	line-height:0px;
+	    	vertical-align:middle;
+	    	width:100%;
+	    }
+
+		    #header_container .page_content .contenedor_cabecera .areaNavegacionResponsive .cont_botonera .botonNaveg{
+		    	cursor:pointer;
+		    	display:inline-table;
+		    	height:46px;
+		    	width:20%;
+		    }
+
+		    #header_container .page_content .contenedor_cabecera .areaNavegacionResponsive .cont_botonera .botonNaveg.menuActual, #header_container .page_content .contenedor_cabecera .areaNavegacionResponsive .cont_botonera .botonNaveg:hover{
+		    	color:rgba(255, 255, 255, 0.8);
+		    	background-color:#c2c3c9;
+		    }
+
+		    	#header_container .page_content .contenedor_cabecera .areaNavegacionResponsive .cont_botonera .botonNaveg .cont_imagen{
+		    		margin:10%;
+		    	}
+
+			    	#header_container .page_content .contenedor_cabecera .areaNavegacionResponsive .cont_botonera .botonNaveg .cont_imagen .imagen{
+				    	/**/
+				    }
+
+		#header_container .page_content .contenedor_cabecera .areaInformativa{
+	    	background-color:#c2c3c9;
+	    }
+
+		    #header_container .page_content .contenedor_cabecera .areaInformativa .cont_info{
+		    	display:table-cell;
+		    	vertical-align:middle;
+		    	height:25px;
+		    	width:100%;
+		    }
+
+			    #header_container .page_content .contenedor_cabecera .areaInformativa .cont_info .info{
+			    	color:white;
+			    	display:inline-block;
+			    	padding:0px 10px;
+			    	width:100%;
+			    }
+			    	#header_container .page_content .contenedor_cabecera .areaInformativa .cont_info .info a{
+			    		color:#492957;
+			    		text-decoration:underline;
+			    		margin-left:10px;
+			    	}
+}
+
+
+/****************************************/
+/*	Tamaño para versión en escritorio	*/
+@media screen and (min-width:600px){
+    #header_container{
+        background-color:black;
+    }
+
+    #header_container .page_content{
+    	margin:0px auto;
+    	max-width:700px;
+    }
+
+
+    /************************/
+    /*	Inicia la edición	*/
+    #header_container .page_content .contenedor_cabecera{
+    	margin:0px auto;
+    	width:100%;
+    }
+
+    	#header_container .page_content .contenedor_cabecera .areaNavegacionResponsive{
+	    	display:none;
+    	}
+
+    	#header_container .page_content .contenedor_cabecera .areaNavegacionEscritorio{
+	    	background-color:#e5e5e5;
+	    	display:block;
+	    	height:auto;
+    	}
+
+	    #header_container .page_content .contenedor_cabecera .areaNavegacionEscritorio .cont_botonera{
+	    	color:white;
+	    	display:table;
+	    	vertical-align:middle;
+	    	width:100%;
+	    }
+
+		    #header_container .page_content .contenedor_cabecera .areaNavegacionEscritorio .cont_botonera .botonNaveg{
+		    	cursor:pointer;
+		    	color:black;
+		    	display:inline-table;
+		    	height:28px;
+		    	line-height:28px;
+	    		text-align:center;
+	    		vertical-align:middle;
+		    	width:20%;
+		    }
+
+		    #header_container .page_content .contenedor_cabecera .areaNavegacionEscritorio .cont_botonera .botonNaveg:hover, #header_container .page_content .contenedor_cabecera .areaNavegacionEscritorio .cont_botonera .botonNaveg.menuActual{
+		    	color:rgba(255, 255, 255, 1);
+		    	background-color:#c2c3c9;
+		    }
+
+		    	#header_container .page_content .contenedor_cabecera .areaNavegacionEscritorio .cont_botonera .botonNaveg .texto{
+			    	/**/
+			    }
+
+		#header_container .page_content .contenedor_cabecera .areaInformativa{
+	    	background-color:#c2c3c9;
+	    }
+
+		    #header_container .page_content .contenedor_cabecera .areaInformativa .cont_info{
+		    	display:table-cell;
+		    	vertical-align:middle;
+		    	height:25px;
+		    	width:100%;
+		    }
+
+			    #header_container .page_content .contenedor_cabecera .areaInformativa .cont_info .info{
+			    	color:white;
+			    	display:inline-block;
+			    	padding:0px 10px;
+			    	width:100%;
+			    }
+			    	#header_container .page_content .contenedor_cabecera .areaInformativa .cont_info .info a{
+			    		color:#492957;
+			    		text-decoration:underline;
+			    		margin-left:10px;
+			    	}
+    
+}
+
+
+/************************/
+/*	ESTILOS GENERALES	*/
+.hh2{
+    font-size:1.5em !important;
+    font-weight:bold !important;
+}
+
+.hh1{
+    font-size:0.8em !important;
+    font-weight:bold !important;
+}

@@ -1,0 +1,85 @@
+﻿/********************************************************************
+*   Desarrollado por: Fabián Murillo, fabianmurillo.01@gmail.com    *
+*                     © 2019                                        *
+*********************************************************************/
+#notificaciones_container{
+    /**/
+}
+#notificaciones_container .page_content{
+    max-width:1100px;
+    /*min-width:700px;*/
+    margin:0px auto;
+}
+#notificaciones_container .modulo_page{
+    /**/
+}
+
+.mod-wrapper {
+    /*width: 700px;*/
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;  
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.mod-title {
+    /**/
+}
+.mod-title h2, .mod-title h4{
+    margin: 6px 0 0;
+}
+.mod-title h2{
+    font-size: 22px;
+}
+.mod-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+
+.item{
+    display:flex;
+    margin:3px 0px;
+}
+.item .cuadro{
+    width:18px;
+    height:18px;
+    margin:0px 5px;
+    border:1px solid #a5a5a5;
+}
+
+input.hasDatepicker{
+    cursor:pointer;
+}
+
+.cont_table{
+    overflow-x:auto;
+}
+
+table{
+    /**/
+}
+
+table .tb_head{
+    text-align-last:center;
+    border:3px solid #a5a5a5;
+}
+.bkcolor-red{
+    background-color:#ff3d3d;
+}
+.bkcolor-orange{
+    background-color:#ffcf50;
+}
+.bkcolor-green{
+    background-color:#85efa0;
+}
+.bkcolor-blue{
+    background-color:#85baef;
+}
+.bkcolor-transparent{
+    background-color:transparent;
+}
